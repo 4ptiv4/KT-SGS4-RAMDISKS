@@ -1,0 +1,32 @@
+isSystemServer=true domain=system
+user=system domain=system_app type=system_data_file
+user=bluetooth domain=bluetooth type=bluetooth_data_file
+user=nfc domain=nfc type=nfc_data_file
+user=radio domain=radio type=radio_data_file
+user=_app domain=untrusted_app type=app_data_file
+user=_app seinfo=container domain=container_app type=container_app_data_file levelFrom=container sdcard=/mnt_1/sdcard_ sdcardSuffix=_container
+user=_app name=com.sec.android.nearby.mediaserver seinfo=platform domain=platform_app type=platform_media_app_data_file
+user=_app seinfo=platform domain=platform_app type=platform_app_data_file
+user=_app seinfo=platform name=com.android.defcontainer domain=bridged_platform_app type=platform_app_data_file
+user=_app seinfo=platform name=com.sec.android.app.controlpanel domain=bridged_platform_app type=platform_app_data_file
+user=_app seinfo=platform name=com.sec.minimode.taskcloser domain=bridged_platform_app type=platform_app_data_file
+user=_app seinfo=shared domain=shared_app type=platform_app_data_file
+user=_app seinfo=media domain=media_app type=platform_app_data_file
+user=_app seinfo=release domain=release_app type=platform_app_data_file
+user=_app seinfo=release name=com.android.browser domain=browser_app type=platform_app_data_file
+user=_app seinfo=vpn domain=vpn_app type=vpn_app_data_file
+user=_isolated seinfo=container domain=container_app type=container_app_data_file levelFrom=container sdcard=/mnt_1/sdcard_ sdcardSuffix=_container
+user=_isolated domain=isolated_app
+user=smartcard domain=platform_app type=platform_app_data_file
+user=system name=com.sec.android.app.sysscope domain=syscope_app type=system_data_file
+user=_app seinfo=samsung domain=samsung_app type=app_data_file
+user=_app seinfo=samsung name=com.sec.android.app.samsungapps domain=samsung_app type=app_data_file
+user=_app seinfo=untrusted name=com.vlingo.midas domain=samsung_app type=app_data_file
+user=_app seinfo=untrusted name=tv.peel.samsung.app domain=samsung_app type=app_data_file
+user=_app seinfo=untrusted name=tv.peel.samsung.widget domain=samsung_app type=app_data_file
+user=_app seinfo=untrusted name=com.rageconsulting.android.lightflow domain=filtered_untrusted_app type=app_data_file
+user=_app seinfo=untrusted name=com.rageconsulting.android.lightflowlite domain=filtered_untrusted_app type=app_data_file
+user=_app seinfo=untrusted name=rubberbigpepper.lgCamera domain=filtered_untrusted_app type=app_data_file
+user=_app seinfo=vmware domain=vmware_app type=app_data_file
+user=_app seinfo=iwlanservice domain=carrier_app type=app_data_file
+user=_app seinfo=tbmon domain=carrier_app type=app_data_file
